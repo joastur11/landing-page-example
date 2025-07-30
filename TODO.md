@@ -5,9 +5,16 @@
 - href y función botón de Hero (useState del botón para el efecto del click)
 - decoración del Hero
 - dark mode switch tailwind
+- que la navbar se vea siempre mas allá del scroll?
 
 
-
+## Estructua planeada:
+scrolleando: 
+  navbar
+  hero
+  propiedades con tarjetas con detalles especificos
+  about
+  contacto
 
 ## PLAN: 
 
