@@ -1,14 +1,15 @@
 // crear componentes navbar, hero y footer
 
+import { Hero } from "./components/Hero.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 
 export function App (){
   return (
     <>
       <Navbar />
-      <main className="p-8">
-        <h2> el texto de abajo de la navbar </h2>
-      </main>
+      <div className="bg-sky-50 min-h-screen">
+        <Hero />
+      </div>
     </>
   )
 }
