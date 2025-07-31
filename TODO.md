@@ -7,6 +7,11 @@
 - dark mode switch tailwind
 - que la navbar se vea siempre mas allá del scroll?
 
+## TODO CARTS
+
+- Nuestras propiedades:
+- cartas (6) que muestren lo esencial
+- al hacer click que se abra y muestre todo, con fondo mas oscuro
 
 ## Estructua planeada:
 scrolleando: 

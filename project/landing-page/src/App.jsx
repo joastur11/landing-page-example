@@ -2,6 +2,7 @@
 
 import { Hero } from "./components/Hero.jsx";
 import { Navbar } from "./components/Navbar.jsx";
+import { Properties } from "./components/Properties.jsx";
 
 export function App (){
   return (
@@ -9,6 +10,7 @@ export function App (){
       <Navbar />
       <div className="bg-sky-50 min-h-screen">
         <Hero />
+        <Properties />
       </div>
     </>
   )

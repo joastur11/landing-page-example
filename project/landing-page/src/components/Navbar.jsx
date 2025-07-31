@@ -2,7 +2,7 @@ import { HomeModernIcon } from '@heroicons/react/24/solid'
 
 export function Navbar (){
   return(
-  <header className="bg-white shadow-md">
+  <header className="sticky top-0 bg-white shadow-md">
     <div className='max-w-6xl mx-auto px-4 py-4 flex items-center justify-between '>
       <div className='flex items-center space-x-2'>
         <HomeModernIcon className='h-8 w-8 text-sky-600'/>

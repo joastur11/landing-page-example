@@ -2,7 +2,7 @@
 
 export function Hero (){
   return (
-    <section className="bg-sky-50 py-20">
+    <section className="min-h-screen flex items-center justify-center">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Encontrá tu hogar ideal
