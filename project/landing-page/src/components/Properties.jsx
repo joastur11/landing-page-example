@@ -10,8 +10,10 @@ export function Properties () {
         <h2 className="text-4xl md:text-4xl font-bold text-gray-800 mb-4">
           Nuestras Propiedades
         </h2>
-        <div>
-          <PropertyCard properties={properties}/>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" >
+          {properties.map((prop)=>
+            <PropertyCard properties={prop}/>
+          )}
         </div>
       </div>
     </section>
