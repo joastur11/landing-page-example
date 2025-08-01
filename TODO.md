@@ -1,4 +1,4 @@
-## TODO LIST:
+## TODO:
 
 - cambiar estilo en general para que no sea el básico celeste blanco
 - href de los <a> en Navbar
@@ -12,6 +12,10 @@
 - Hover a cada carta
 - al hacer click que se abra y muestre todo, con fondo mas oscuro
 
+## TODO ABOUT
+
+- Hacerlo mas lindo juaj
+
 ## Estructua planeada:
 scrolleando: 
   navbar
@@ -21,13 +25,6 @@ scrolleando:
   contacto
 
 ## PLAN: 
-
-- Día 3:
-Agregar filtros con useState
-
-Crear formulario de contacto
-
-Conectar el backend básico (Node) que reciba los mensajes
 
 - Día 4+:
 Mejorar estilos
