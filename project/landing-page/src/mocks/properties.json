@@ -7,57 +7,57 @@
       "dimensions":"100 m2",
       "images": "/images/chalet.jpg",
       "price":"1$",
-      "comment":"'Increíble zona para vivir!'",
+      "comment":"Increíble zona para vivir!",
       "details":""
     },
     {
       "id": 2,
       "title": "Mono-ambiente",
       "location": "CABA",
-      "dimensions":"20m2",
+      "dimensions":"20 m2",
       "images": "/images/monoambiente.jpg",
       "price":"1$",
-      "comment":"'Quien necesita espacio!'",
+      "comment":"Quien necesita espacio!",
       "details":""
     },
     {
       "id": 3,
       "title": "Rancho",
       "location": "Tero Follado, Santiago del Estero",
-      "dimensions":"45m2",
+      "dimensions":"45 m2",
       "images": "/images/rancho.jpg",
       "price":"1$",
-      "comment":"'Mas lujoso de lo que aparenta!'",
+      "comment":"Mas lujoso de lo que aparenta!",
       "details":""
     },
     {
       "id": 4,
       "title": "Casa Ordinaria",
       "location": "Cordoba capital",
-      "dimensions":"70m2",
+      "dimensions":"70 m2",
       "images": "/images/ordinaria.jpg",
       "price":"1$",
-      "comment":"'Es una gran casa común!'",
+      "comment":"Es una gran casa común!",
       "details":""
     },
     {
       "id": 5,
       "title": "Departamento de la abuela",
       "location": "Rosario, Santa Fe",
-      "dimensions":"35m2",
+      "dimensions":"35 m2",
       "images": "/images/abuela.jpg",
       "price":"1$",
-      "comment":"'Te extrañaremos abuela!'",
+      "comment":"Te extrañaremos abuela!",
       "details":""
     },
     {
       "id": 6,
       "title": "Just a House",
       "location": "Santa Rosa, La Pampa",
-      "dimensions":"50m2",
+      "dimensions":"50 m2",
       "images": "/images/justacasa.jpg",
       "price":"1$",
-      "comment":"'Es una casa!'",
+      "comment":"Es una casa!",
       "details":""
     }
   ]
