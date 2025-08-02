@@ -1,7 +1,7 @@
 ## TODO:
 
 - cambiar estilo en general para que no sea el básico celeste blanco
-- href de los <a> en Navbar
+- agregar HOVERS
 - href y función botón de Hero (useState del botón para el efecto del click)
 - decoración del Hero
 - dark mode switch tailwind
@@ -16,19 +16,10 @@
 
 - Hacerlo mas lindo juaj
 
-## Estructua planeada:
-scrolleando: 
-  navbar
-  hero
-  about
-  propiedades con tarjetas con detalles especificos
-  contacto
 
 ## PLAN: 
 
 - Día 4+:
 Mejorar estilos
-
-Agregar animaciones o scroll suave
 
 Hacer deploy: frontend en Vercel / backend en Render
