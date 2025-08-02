@@ -2,7 +2,7 @@ import { CalendarDaysIcon, GlobeAltIcon, FaceSmileIcon, HomeIcon } from "@heroic
 
 export function About (){
   return (
-    <section className="min-h-screen flex items-center justify-center">
+    <section id="about" className="min-h-screen flex items-center justify-center">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h3 className="text-4xl md:text-4xl font-bold text-gray-800 mb-4">
           Somos Hello World

@@ -9,13 +9,11 @@ export function Navbar (){
         <h1 className='text-xl font-bold'>Inmobiliaria Hello World</h1>       
       </div>
       <nav className='space-x-6 hidden md:flex text-gray-700 font-medium'>
-        <a href="#" className='hover:text-blue-600'>Propiedades</a>
-        <a href="#" className='hover:text-blue-600'>Contacto</a>
-        <a href="#" className='hover:text-blue-600'>Nosotros</a>
+        <a href="#about" className='hover:text-blue-600'>Nosotros</a>
+        <a href="#properties" className='hover:text-blue-600'>Propiedades</a>
+        <a href="#contact" className='hover:text-blue-600'>Contacto</a>
       </nav>
     </div>
   </header>
   )
 }
-
-//href de los <a> 

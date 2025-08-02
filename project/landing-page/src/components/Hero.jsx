@@ -10,7 +10,7 @@ export function Hero (){
         <p className="text-lg md:text-xl text-gray-600 mb-8">
           Casas, departamentos y terrenos en toda Argentina. Fácil, rápido y confiable.
         </p>
-        <a href="#propiedades" className="
+        <a href="#properties" className="
           inline-block
           bg-sky-600
           text-white 
