@@ -10,7 +10,11 @@
 
 - Hacer mas lindo el placeholder de texto que tienen
 - Hover a cada carta
-- al hacer click que se abra y muestre todo, con fondo mas oscuro
+
+## TODO MODAL
+
+- todo el contenidoxd 
+- 
 
 ## TODO ABOUT
 
