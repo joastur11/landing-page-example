@@ -5,7 +5,7 @@ export function PropertyCard ({ properties }) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg group " >
+    <div className="max-w-sm rounded overflow-hidden shadow-lg" >
       <img className="object-cover w-100 h-80" src={properties.images} alt={properties.title} />
       <div className="px-6 py-3">
         <strong className="font-bold text-xl mb-2">{properties.title}</strong>
@@ -30,7 +30,7 @@ export function PropertyCard ({ properties }) {
           bg-sky-600
           ">Detalles</button>
       </div>
-      <Modal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+      <Modal properties={properties} isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
     </div>
   )
 }

@@ -1,4 +1,4 @@
-export function Modal ({ isModalOpen, setIsModalOpen }) {
+export function Modal ({ isModalOpen, setIsModalOpen, properties }) {
   if (isModalOpen){
     return (
       <div 
@@ -7,11 +7,15 @@ export function Modal ({ isModalOpen, setIsModalOpen }) {
       >
         <div 
           onClick={(e) => e.stopPropagation()}
-          className="bg-white p-5 rounded flex z-50"
+          className="max-w-lg rounded bg-white p-2 z-50 ring-1 ring-gray-200 shadow-lg"
         >
+          <img className="object-cover w-full h-full rounded-t" src={properties.images} alt={properties.title} />
+          <p className="flex mt-2 flex-col items-center text-lg font-normal mx-auto text-center"> {properties.details} </p>
           <button 
             onClick={() => setIsModalOpen(false)}
             className="
+              mb-2
+              mt-4
               cursor-pointer
               text-white 
               px-3 
@@ -20,7 +24,9 @@ export function Modal ({ isModalOpen, setIsModalOpen }) {
               hover:bg-sky-700 
               transition 
               rounded-lg 
-              text-lg 
+              text-lg
+              text-center
+              mx-auto 
               bg-sky-600
             "
           >

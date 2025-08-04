@@ -3,7 +3,7 @@ import { PhoneIcon, InboxIcon, AtSymbolIcon, BuildingStorefrontIcon } from "@her
 export function Contact (){
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center">
-      <div className="rounded overflow-hidden py-20 shadow-lg max-w-6xl mx-auto px-4 text-center">
+      <div className="rounded bg-white overflow-hidden py-20 shadow-lg max-w-6xl mx-auto px-4 text-center">
         <h3 className="text-4xl md:text-4xl font-bold text-gray-800 mb-4">
           Contactanos
         </h3>
