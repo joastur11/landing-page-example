@@ -9,7 +9,7 @@ export function Modal ({ isModalOpen, setIsModalOpen, properties }) {
           onClick={(e) => e.stopPropagation()}
           className="max-w-lg rounded bg-white p-2 z-50 ring-1 ring-gray-200 shadow-lg"
         >
-          <img className="object-cover w-full h-full rounded-t" src={properties.images} alt={properties.title} />
+          <img className="object-cover w-full h-full rounded" src={properties.images} alt={properties.title} />
           <p className="flex mt-2 flex-col items-center text-lg font-normal mx-auto text-center"> {properties.details} </p>
           <button 
             onClick={() => setIsModalOpen(false)}

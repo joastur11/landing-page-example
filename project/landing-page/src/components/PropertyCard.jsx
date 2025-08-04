@@ -5,7 +5,7 @@ export function PropertyCard ({ properties }) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg" >
+    <div className="max-w-sm rounded overflow-hidden bg-white shadow-lg hover:shadow-xl hover:ring-2 hover:ring-gray-200 transition-shadow duration-300" >
       <img className="object-cover w-100 h-80" src={properties.images} alt={properties.title} />
       <div className="px-6 py-3">
         <strong className="font-bold text-xl mb-2">{properties.title}</strong>
